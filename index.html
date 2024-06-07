@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Xon saroy</title>
+</head>
+
+<body class="font-inter bg-[#FBF8F3]">
+    <!-- header -->
+    <header class="mx-auto px-[20px] md:px-[24px] relative" style="max-width: 1200px">
+        <div class="header__inner py-[10px] flex justify-between items-center md:px-[50px] lg:py-[20px] lg:px-0">
+            <button class="open-menu-btn w-[40px] h-[40px] border-[2px] rounded-full bg-center bg-no-repeat lg:hidden"
+                style="background-image: url('./icons/burger-open-icon.svg')"></button>
+
+            <a href="./index.html">
+                <img class="md:w-[100px] lg:w-[120px]" src="./icons/logo.svg" alt="logo" />
+            </a>
+
+            <button class="w-[40px] h-[40px] rounded-full bg-center bg-no-repeat bg-[#A67C36] lg:hidden"
+                style="background-image: url('./icons/phone.svg')"></button>
+
+            <nav
+                class="header__navigation fixed bg-[#FBF8F3] w-full py-[40px] px-[40px] top-0 left-0 translate-x-full transition delay-[0.5s] ease-out lg:static lg:w-auto lg:translate-x-0 lg:py-0 lg:px-0 lg:flex lg:items-center lg:gap-[60px]">
+                <ul class="flex flex-col gap-[50px] lg:flex-row lg:items-center lg:gap-[60px]">
+                    <li>
+                        <a class="text-[#0C0904] text-[18px] hover:text-[#A67C36] transition duration-[0.2s] cursor-pointer"
+                            href="./index.html">О нас</a>
+                    </li>
+                    <li>
+                        <a class="text-[#0C0904] text-[18px] hover:text-[#A67C36] transition duration-[0.2s] cursor-pointer"
+                            href="./index.html">Меню</a>
+                    </li>
+                    <li>
+                        <a class="text-[#0C0904] text-[18px] hover:text-[#A67C36] transition duration-[0.2s] cursor-pointer"
+                            href="./index.html">Доставка и бронь</a>
+                    </li>
+                    <li>
+                        <a class="text-[#0C0904] text-[18px] hover:text-[#A67C36] transition duration-[0.2s] cursor-pointer"
+                            href="./index.html">Контакты</a>
+                    </li>
+                    <li>
+                        <a class="text-[#0C0904] text-[18px] hover:text-[#A67C36] transition duration-[0.2s] cursor-pointer"
+                            href="./index.html">Адрес</a>
+                    </li>
+                </ul>
+
+                <div class="flex justify-end w-full px-4 lg:hidden relative">
+                    <button
+                        class="close-menu-btn w-[40px] h-[40px] rounded-full bg-center bg-no-repeat bg-[#A67C36] mt-[40px] absolute right-[-20px] top-[-20px]"
+                        style="background-image: url('./icons/burger-icon-close.svg')"></button>
+                </div>
+
+                <a href="tel:"
+                    class="hidden lg:flex items-center text-[#0C0904] hover:text-[#A67C36] transition duration-[0.4s] ease-out relative"
+                    style="gap: 8px">
+                    <img src="./icons/icon-phone.svg" alt="" />
+                    +996559477741
+                </a>
+            </nav>
+        </div>
+    </header>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
